@@ -44,7 +44,7 @@ if __name__ == "__main__":
     begin = time.time()
     
     faces = _detectFace(img)
-    #eyes = _detectEyes(img)
+    eyes = _detectEyes(img)
     
     # Drawing rectangle around face
     for face in faces:
