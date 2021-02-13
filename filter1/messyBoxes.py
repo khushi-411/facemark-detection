@@ -62,7 +62,7 @@ def main():
             return False
         
         # To change colored image to gray scale
-        if len(img) > 1:
+        if len(frame) > 1:
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         # print("Gray Shape : ", gray.shape)            ...... # Gray Shape :  (480, 640)
         
