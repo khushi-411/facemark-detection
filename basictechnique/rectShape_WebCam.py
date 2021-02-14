@@ -52,15 +52,16 @@ if __name__ == "__main__":
             faces = _detectFace(frame)
             eyes = _detectEyes(frame)
     
-            # Drawing rectangle around face
-            if len(faces) != 0:
+            # Drawing rectangle around face if face found
+            if len(faces) != 0:                   
                 for face in faces:
                     frame =  cv2.rectangle(frame, (face[0], face[1]), (face[0]+face[2], face[1]+face[3]), (0, 0, 0), 2)
+                # Putting text on frame if face detected
                 cv2.putText(frame, 'Face Detected', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2, cv2.LINE_4)
             else:
                 cv2.putText(frame, 'Face Not Detected', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2, cv2.LINE_4) 
  
-            # Drawing rectangle around eye
+            # Drawing rectangle around eye if found
             if len(eyes) != 0:
                 for eye in eyes:
                     frame = cv2.rectangle(frame, (eye[0], eye[1]), (eye[0]+eye[2], eye[1]+eye[3]), (0, 0, 0), 2)
