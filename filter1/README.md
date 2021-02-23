@@ -7,7 +7,7 @@ Huge Greetings of Thanks to *krshrimali sir* for the idea.
 ### **Steps**
 
 * Detect face, mouth and eyes region of face.
-* Blurr whole image except face.
+* Blurr whole frame except face.
 * Replace eyes and mouth region of face with black strip.
 
 ### **Uniqueness**
