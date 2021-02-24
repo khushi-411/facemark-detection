@@ -12,5 +12,3 @@ This part of my repository consits of basic techniques to detect face. It is div
 * To detect face in circular shape, I found center and raidus from the detected rectangles.
 
 ### **Output**
-
-https://github.com/khushi-411/Play-With-Faces/issues/1#issue-815163067
