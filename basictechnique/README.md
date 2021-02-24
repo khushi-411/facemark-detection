@@ -13,4 +13,3 @@ This part of my repository consits of basic techniques to detect face. It is div
 
 ### **Output**
 
-https://github.com/khushi-411/Play-With-Faces/issues/1
