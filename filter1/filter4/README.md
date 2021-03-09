@@ -24,7 +24,7 @@ This is a simple filter designed via OpenCV which cartoonify images (top to down
 
 We'll get output file saved as *filter4.mp4* 
 
-https://user-images.githubusercontent.com/62256509/110498464-5c72e380-811d-11eb-97e5-4cacdce8d6fb.mp4
+![filter4] https://user-images.githubusercontent.com/62256509/110498464-5c72e380-811d-11eb-97e5-4cacdce8d6fb.mp4
 
 ## **Reference**
 
