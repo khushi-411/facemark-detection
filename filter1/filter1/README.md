@@ -2,8 +2,6 @@
 
 This is an example of simple instagram/snapchat filter using OpenCV.
 
-Huge Greetings of Thanks to *krshrimali sir* for the idea.
-
 ### **Steps**
 
 * Detect face, mouth and eyes region of face.
@@ -11,7 +9,7 @@ Huge Greetings of Thanks to *krshrimali sir* for the idea.
 * Replace eyes and mouth region of face with black strip.
 
 ### **Uniqueness**
-* It is executed in the live form.
+* Real time detection model.
 * It can be useful for security purpose.
 * Produces funny output.
 
